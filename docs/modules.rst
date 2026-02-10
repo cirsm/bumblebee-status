@@ -61,7 +61,8 @@ Shows free diskspace, total diskspace and the percentage of free disk space.
 Parameters:
     * disk.warning: Warning threshold in % of disk space (defaults to 80%)
     * disk.critical: Critical threshold in % of disk space (defaults to 90%)
-    * disk.path: Path to calculate disk usage from (defaults to /)
+    * disk.path: Comma separated list of paths (defaults to /)
+    * disk.showpath: Enable or disable absolute path display (defaults to true)
     * disk.open: Which application / file manager to launch (default xdg-open)
     * disk.format: Format string, tags {path}, {used}, {left}, {size} and {percent} (defaults to '{path} {used}/{size} ({percent:05.02f}%)')
     * disk.system: Unit system to use - SI (KB, MB, ...) or IEC (KiB, MiB, ...) (defaults to 'IEC')
